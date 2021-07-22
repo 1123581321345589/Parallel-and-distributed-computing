@@ -1,0 +1,18 @@
+Warning: Permanently added the ECDSA host key for IP address '192.168.1.11' to the list of known hosts.
+Warning: Permanently added the ECDSA host key for IP address '192.168.1.12' to the list of known hosts.
+Rank 0, myrows=3000
+Rank 9, myrows=3000
+Rank 2, myrows=3000
+Rank 4, myrows=3000
+Rank 8, myrows=3000
+Rank 6, myrows=3000
+Rank 5, myrows=3000
+Rank 7, myrows=3000
+Rank 3, myrows=3000
+Rank 1, myrows=3000
+Num Ranks=10
+MVP Runtime: 0.292857
+Initial Communication: 6.200943
+Final Gather: 0.130812
+Full time: 11.269782
+FLOPS: 6146242596.250158

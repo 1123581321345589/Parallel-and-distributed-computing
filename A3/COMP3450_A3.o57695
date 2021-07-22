@@ -1,0 +1,12 @@
+Rank 0, myrows=4500
+Rank 2, myrows=4500
+Rank 5, myrows=4500
+Rank 1, myrows=4500
+Rank 3, myrows=4500
+Rank 4, myrows=4500
+Num Ranks=6
+MVP Runtime: 0.369537
+Initial Communication: 4.845834
+Final Gather: 0.026714
+Full time: 8.992333
+FLOPS: 3945405335.295117

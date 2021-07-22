@@ -1,0 +1,11 @@
+#!/bin/bash
+#PBS -l nodes=10:ppn=12,walltime=00:02:10
+#PBS -q batch
+#PBS -N COMP3450_A3
+#PBS -j oe
+#PBS -V
+
+#cat $PBS_NODEFILE
+cd ~/assignments/A3
+mpiexec -np 10 --map-by ppr:1:node --hostfile $PBS_NODEFILE ./mvp
+
