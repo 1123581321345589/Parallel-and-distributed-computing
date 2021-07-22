@@ -1,0 +1,12 @@
+#PBS -l nodes=10:ppn=12,walltime=00:00:10
+#PBS -q batch
+#PBS -N A5_MPI
+#PBS -j oe
+#PBS -V
+
+cd ~/assignments/A5
+export COUNTER1=P_WALL_CLOCK_TIME
+export COUNTER2=PAPI_FP_INS
+export COUNTER3=PAPI_L1_DCM
+mpiexec -np 10 --map-by ppr:1:node -x COUNTER1 -x COUNTER2 --hostfile $PBS_NODEFILE ./A5
+
