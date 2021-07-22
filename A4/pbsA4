@@ -1,0 +1,10 @@
+#!/bin/bash
+#PBS -l nodes=10:ppn=12
+#PBS -l walltime=00:00:10
+#PBS -q batch
+#PBS -N send_receive_int
+#PBS -j oe
+
+#cat $PBS_NODEFILE
+cd ~/assignments/A4/
+mpiexec -np 10 --map-by ppr:1:node --hostfile $PBS_NODEFILE ./A4scatter

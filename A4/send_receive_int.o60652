@@ -1,0 +1,6 @@
+Rank: 0, Result: 1000
+Full time: 0.018165
+Calc time: 0.000000
+Alloc+Initalize time: 0.000012
+Scatter time: 0.010165
+Reduce time: 0.001364

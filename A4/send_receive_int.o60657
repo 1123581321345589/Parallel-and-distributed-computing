@@ -1,0 +1,25 @@
+Rank 4: Number of Elements: 1000000
+Rank 8: Number of Elements: 1000000
+Rank 9: Number of Elements: 1000000
+Rank 1: Number of Elements: 1000000
+Rank 5: Number of Elements: 1000000
+Rank 2: Number of Elements: 1000000
+Rank 6: Number of Elements: 1000000
+Rank 3: Number of Elements: 1000000
+Rank 7: Number of Elements: 1000000
+Rank 0: Number of Elements: 1000000
+Rank: 8, Result: 40000000
+Rank: 9, Result: 40000000
+Rank: 5, Result: 40000000
+Rank: 0, Result: 40000000
+Full time: 0.145952
+Calc time: 0.003159
+Alloc+Initalize time: 0.054668
+Scatter time: 0.077632
+Reduce time: 0.001679
+Rank: 6, Result: 40000000
+Rank: 7, Result: 40000000
+Rank: 4, Result: 40000000
+Rank: 3, Result: 40000000
+Rank: 2, Result: 40000000
+Rank: 1, Result: 40000000

@@ -1,0 +1,25 @@
+Rank 8: Number of Elements: 50000000
+Rank 4: Number of Elements: 50000000
+Rank 2: Number of Elements: 50000000
+Rank 6: Number of Elements: 50000000
+Rank 5: Number of Elements: 50000000
+Rank 9: Number of Elements: 50000000
+Rank 1: Number of Elements: 50000000
+Rank 3: Number of Elements: 50000000
+Rank 7: Number of Elements: 50000000
+Rank 0: Number of Elements: 50000000
+Rank: 0, Result: 2000000000
+Full time: 6.201155
+Calc time: 0.157526
+Alloc+Initalize time: 2.528001
+Scatter time: 3.508490
+Reduce time: 0.000234
+Rank: 1, Result: 2000000000
+Rank: 6, Result: 2000000000
+Rank: 5, Result: 2000000000
+Rank: 4, Result: 2000000000
+Rank: 3, Result: 2000000000
+Rank: 8, Result: 2000000000
+Rank: 7, Result: 2000000000
+Rank: 2, Result: 2000000000
+Rank: 9, Result: 2000000000
