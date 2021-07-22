@@ -1,0 +1,11 @@
+#!/bin/bash
+#PBS -l nodes=1:ppn=12
+#PBS -l walltime=0:00:05
+#PBS -q batch
+#PBS -N COMP3450_A1
+#PBS -j oe
+#PBS -V
+
+#cat $PBS_NODEFILE
+cd ~/assignments/A1
+./mvp-student.cx

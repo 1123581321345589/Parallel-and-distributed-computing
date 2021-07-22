@@ -1,0 +1,17 @@
+#PBS -l nodes=2:ppn=12,walltime=00:00:10
+#PBS -q batch
+#PBS -N test_A0
+#PBS -j oe
+#PBS -V
+
+#cat $PBS_NODEFILE
+cd ~/assignments/A0
+echo 'Fortran'
+mpiexec -np 2 --map-by ppr:1:node --hostfile $PBS_NODEFILE ./host.x
+mpiexec -np 2 --map-by ppr:1:node --hostfile $PBS_NODEFILE ./pass.x
+mpiexec -np 2 --map-by ppr:1:node --hostfile $PBS_NODEFILE ./dot.x
+echo
+echo 'C'
+mpiexec -np 2 --map-by ppr:1:node --hostfile $PBS_NODEFILE ./host.cx
+mpiexec -np 2 --map-by ppr:1:node --hostfile $PBS_NODEFILE ./pass.cx
+mpiexec -np 2 --map-by ppr:1:node --hostfile $PBS_NODEFILE ./dot.cx
